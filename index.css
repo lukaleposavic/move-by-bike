@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image:url('./Texture\ Fill@1X.png');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 'head1 head2'
+                         'mid1 mid2'
+                         'foot foot' ;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.logo{
+    grid-area: head1;
+}
+.midl{
+    grid-area:mid1;
+}
+.header{
+     grid-area:head2 ;
+}
+.mid{
+    grid-area: mid2;
+    
+    color:blanchedalmond;
+}
+.footer{
+    grid-area: foot;
+}
+.main{
+    background-color: black;
+    z-index: 0;
+}
+.midl img{
+    max-width: 100%;
+    
+}
