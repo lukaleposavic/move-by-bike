@@ -148,7 +148,7 @@ a:active {
 .sign span{
     color: rgb(41, 212, 147);
 }
-button{
+.button{
     grid-area: mr2;
     background-color: rgb(41, 212, 147);
     margin: 60% 50% 0 0 ;
@@ -244,3 +244,64 @@ div[class^="box-number-"] p:nth-child(2){
     margin:0px 0px 20px 0px;
 }
 
+
+.column {
+    float: left;
+        width: 50%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+  
+}
+  .column img{
+      height: 250px;
+      width: 70%;
+     margin-left: 12.5%;
+     margin-bottom: 10px;
+  } 
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-us {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .dugme{
+    border: none;
+    outline: 0;
+    padding: 8px;
+    display: inline-block;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    
+  }
+  
+  .button-about:hover {
+    background-color: #555;
+  }
+  section{
+      margin-left: 5%;
+  }
+ 
