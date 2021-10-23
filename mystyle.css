@@ -297,17 +297,25 @@ div[class^="box-number-"] p:nth-child(2){
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
     padding: 10%;
+    background-color: whitesmoke;
+    border-radius: 10%;
   }
-  
+  section{
+    position: relative;
+    width: 100%;
+  }
   .about-us {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
-    color: white;
+    background-color: #1C1C1C;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    
   }
   
   .container {
     padding: 0 16px;
+    background-color: whitesmoke;
   }
   
   .container::after, .row::after {
@@ -320,7 +328,7 @@ div[class^="box-number-"] p:nth-child(2){
     color: grey;
   }
   
-  .dugme{
+  .contact-button{
     border: none;
     outline: 0;
     padding: 8px;
@@ -330,10 +338,12 @@ div[class^="box-number-"] p:nth-child(2){
     text-align: center;
     cursor: pointer;
     width: 100%;
+    color: rgb(41, 212, 147);
+    font-weight: bolder;
     
   }
   
-  .button-about:hover {
+  .contact-button:hover {
     background-color: #555;
   }
   section{
